@@ -20,15 +20,15 @@
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 5rem;
+  height: 3rem;
   background-color: #F1BE48;
   padding-left: 100%; }
 
 .ticker {
   background-color: #F1BE48;
   display: inline-block;
-  height: 5rem;
-  line-height: 4rem;
+  height: 3rem;
+  line-height: 2.5rem;
   white-space: nowrap;
   padding-right: 100%;
   -webkit-animation-iteration-count: infinite;
@@ -44,8 +44,10 @@
     display: inline-block;
     border: .5rem solid #F1BE48;
     margin: 0 -.25rem;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
     color: #F1BE48; }
 
