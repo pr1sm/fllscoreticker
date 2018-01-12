@@ -1,0 +1,73 @@
+$duration: 60s;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+.ticker-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 5rem;
+    background-color: #F1BE48;
+    padding-left: 100%;  // offset items to begin
+}
+
+.ticker {
+    background-color: #F1BE48;
+    display: inline-block;
+    height: 5rem;
+    line-height: 4rem;
+    white-space: nowrap; // display items in a line
+    padding-right: 100%; // ensure items go before animations repeat (taken from parent due to inline-block)
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: $duration;
+    animation-duration: $duration;
+
+    &__item {
+        background-color: #C8102E;
+        display: inline-block;
+        border: .5rem solid #F1BE48;
+        margin: 0 -.25rem;
+        padding: 0 2rem;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        color: #F1BE48;
+    }
+}
+
+
+
+
+body { padding-bottom: 5rem; }
+h1,h2,p {padding: 0 5%;}

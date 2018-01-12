@@ -1,0 +1,25 @@
+{
+  "name": "fllscoreticker",
+  "version": "1.0.0",
+  "description": "Rolling Ticker for FLL Score Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github_pr1sm:pr1sm/fllscoreticker.git"
+  },
+  "keywords": [],
+  "author": "Srinivas Dhanwada <dhanwads@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fllscoreclient": "^0.13.4",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4",
+    "yargs": "^10.1.1"
+  }
+}
