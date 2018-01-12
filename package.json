@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2",
-    "fllscoreclient": "^0.13.4",
+    "fllscoreclient": "^0.13.5",
     "http": "0.0.0",
     "path": "^0.12.7",
     "socket.io": "^2.0.4",
