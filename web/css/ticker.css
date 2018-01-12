@@ -20,15 +20,15 @@
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  height: 3rem;
+  height: 2.9rem;
   background-color: #F1BE48;
   padding-left: 100%; }
 
 .ticker {
   background-color: #F1BE48;
   display: inline-block;
-  height: 3rem;
-  line-height: 2.5rem;
+  height: 2.9rem;
+  line-height: 2.2rem;
   white-space: nowrap;
   padding-right: 100%;
   -webkit-animation-iteration-count: infinite;
@@ -37,15 +37,15 @@
   animation-timing-function: linear;
   -webkit-animation-name: ticker;
   animation-name: ticker;
-  -webkit-animation-duration: 60s;
-  animation-duration: 60s; }
+  -webkit-animation-duration: 300s;
+  animation-duration: 300s; }
   .ticker__item {
     background-color: #C8102E;
     display: inline-block;
-    border: .5rem solid #F1BE48;
-    margin: 0 -.25rem;
+    border: .4rem solid #F1BE48;
+    margin: 0 -.2rem;
     padding: 0 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
