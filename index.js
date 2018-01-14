@@ -3,7 +3,7 @@ const express = require('express');
 const socketIO = require('socket.io');
 const path = require('path');
 const fllScoreProxy = require('fllscoreclient/dist/fllscoreclientproxy');
-const argv = require('yargs').argv
+const argv = require('yargs').argv;
 
 
 const PORT = process.env.PORT || argv.serveport || 5000;
